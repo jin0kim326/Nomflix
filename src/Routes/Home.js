@@ -1,12 +1,12 @@
-export default() => "Search";
+export default() => "Home";
+
 
 // import React, { Component } from "react";
 
-// class Search extends Component {
+// class Home extends Component {
 //     render() {
 //         return <div>suce</div>
 //     }
 // }
 
-// export default Search;
-
+// export default Home;
