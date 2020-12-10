@@ -1,17 +1,34 @@
 import React, {Component} from "react";
-import Router from "./Router";
-import Header from "./Header";
-
+import Router from "Components/Router";
+import GlobalStyles from "Components/GlobalStyles"
 
 class App extends Component {
   render() {
     return (
-      <>        
-        <Header />
-        <Router />
+      <>                
+        <Router />    
+        <GlobalStyles />
       </>
     );
   }
 }
 
 export default App;
+
+
+// import React, { Component } from "react";
+// import Router from "Components/Router";
+// import Header from "Components/Header";
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <>
+//         <Header />
+//         <Router />
+//       </>
+//     );
+//   }
+// }
+
+// export default App;

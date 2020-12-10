@@ -1,4 +1,4 @@
-export default() => "Home";
+ export default() => "Home";
 
 
 // import React, { Component } from "react";
@@ -10,3 +10,7 @@ export default() => "Home";
 // }
 
 // export default Home;
+
+// export default() => {
+//     console.log("hello")
+//     return "Detail";}

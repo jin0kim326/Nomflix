@@ -1,1 +1,4 @@
-export default() => "Detail";
+export default() => {
+    console.log("hello")
+    return "Detail";}
+    
